@@ -42,7 +42,6 @@ function saveRecord(record) {
 }
 
 function uploadPizza() {
-  console.log('IN THE UPLOAD!');
   // open a transaction on your db
   const transaction = db.transaction(['new_pizza'], 'readwrite');
 
